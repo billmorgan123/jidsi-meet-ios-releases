@@ -3,12 +3,12 @@
 This repository contains the binaries for the **[Jitsi Meet]() iOS SDK**. Each
 release is tagged in this repository and is composed of following framework:
 
-- JitsiMeetSDK.xcframework
+- VoipJitsiMeetSDK.xcframework
 
 ## Using the SDK
 
 The recommended way for using the SDK is by using [CocoaPods](). In order to
-do so, add the `JitsiMeetSDK` dependency to your existing `Podfile` or create
+do so, add the `VoipJitsiMeetSDK` dependency to your existing `Podfile` or create
 a new one following this example:
 
 ```
@@ -19,7 +19,7 @@ workspace 'JitsiMeetSDKTest.xcworkspace'
 target 'JitsiMeetSDKTest' do
   project 'JitsiMeetSDKTest.xcodeproj'
 
-  pod 'JitsiMeetSDK'
+  pod 'VoipJitsiMeetSDK'
 end
 ```
 
